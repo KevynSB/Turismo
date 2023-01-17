@@ -1,0 +1,45 @@
+.cabecera_Lago_Itza{
+    background-image: 
+    linear-gradient(
+    to bottom,
+    rgba(40, 40, 38, 0.5),
+    rgba(40, 40, 38, 0.5)
+  ),url("https://www.guatemala.com/fotos/2021/05/Inauguran-un-nuevo-muelle-tematico-a-orillas-del-Lago-Peten-Itza-en-Guatemala-885x500.jpg");
+    background-size: 100% 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+
+.third_section_Lago_Itza{
+    background-image: 
+    linear-gradient(
+    to bottom,
+    rgba(40, 40, 38, 0.5),
+    rgba(40, 40, 38, 0.5)
+  ),url("https://images2.listindiario.com/imagen/2015/11/18/397/396644/680x460/201511180211041/lago-peten-itza.jpeg?mrf-size=m");
+    height: 800px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+/*RESPONSIVE*/
+@media(max-width:375px){
+  /*CABECERA*/
+  .cabecera_Lago_Itza{
+    height: 300px;
+  }
+
+  /*THIRD_SECTION*/
+  .third_section_Lago_Itza{
+    height: 300px;
+  }
+  .third_section_body {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 35px;
+    grid-row-gap: 8%;
+    margin: 10% 0 50px 8%;
+}
+
+
+
+}

@@ -1,0 +1,444 @@
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+
+a{
+  text-decoration: none;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bolder;
+}
+/*------------------PRIMER NAV--------------------*/
+.container_redes{
+    background-color: rgb(38, 144, 162);
+    height: 55px;
+}
+ul.redes{
+    justify-content: flex-end;
+    /* background-color: brown; */
+    padding: 7px 20px;
+    align-items: center;
+}
+ul.redes li{
+    margin:0 8px;
+}
+ul.redes li i{
+   font-size: 20px;
+    background-color: rgba(72, 85, 96, 0.200);
+    border-radius: 100%;
+    padding: 10px;
+    margin-top: 0;
+}
+
+ul.redes li i:hover{
+    cursor: pointer;
+    background-color: rgb(12, 49, 123);
+    color: #FFF;
+}
+/*----------------SEGUNDO NAV-----------------------*/
+.container_menu{
+    background-color:rgb(12, 56, 114);
+    height: 60px;
+}
+nav a{
+    color: #fff;
+}
+.menu{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+    /* background-color: rgb(190, 128, 48); */
+}
+ul.menu li{
+    /* background-color: rgb(18, 176, 124); */
+    padding: 20px 5px 0px 5px;
+    margin-top: 0;
+}
+
+ul.menu li:hover{
+border-top: 3px solid #FFF;
+}
+
+a.nav_redes{
+    color:black;
+}
+
+/*-----------------------FIRST ARTICLE---------------*/
+.cabecera{
+    background-image: 
+    linear-gradient(
+    to bottom,
+    rgba(40, 40, 38, 0.5),
+    rgba(40, 40, 38, 0.5)
+  ),url("https://www.visitcentroamerica.com/wp-content/uploads/2017/08/ver-centroamerica-guatemala-lago-atitlan-02.jpg");
+    background-size: 100% 100%;
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+.cabecera_container{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+   margin-top: 50px;
+   margin-left: 50px;
+   position: absolute;
+   justify-content: space-around;
+    align-items: center;
+}
+.title_header{
+    color:#FFF;
+}
+.img_header{
+    height: 250px;
+}
+.btn_header{
+    background-color: #FFF;
+    color: rgb(52, 4, 208);
+    padding: 15px;
+  min-width: 100%;
+  text-align: center;
+}
+.btn_header:hover{
+    background-color: orange;
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+/*----------------------SECTION-----------------------*/
+.title_section{
+    /* background-color: black; */
+    color: rgb(12, 56, 114);
+    margin: 30px 0;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 5px;
+}
+.parrafo{
+    margin-left:8%;
+    font-size: 19px;
+    line-height: 1.5rem ;
+    text-align: center;
+}
+
+/*----------------------SECOND SECTION-----------------------*/
+.second_section{
+    background-color: rgba(211, 215, 217, 0.494);
+    text-align: center;
+    height: 575px;
+}
+.container{
+ display: grid;
+ /* background-color: bisque; */
+ grid-template-columns: repeat(3, 1fr);
+ /* grid-template-rows: 2fr 1fr; */
+ grid-gap: 10px;
+ margin: 0 70px;
+}
+.card{
+    background-color: rgb(252, 252, 252);
+    /* display: flex;
+    flex-direction: column; */
+    text-align: left;
+    margin-bottom: 50px;
+    overflow-y: scroll;
+}
+.card::-webkit-scrollbar{
+    width: 5px;
+}
+.card::-webkit-scrollbar-thumb{
+    position: absolute;
+    border-radius: 20px;
+    border:3px hidden orange;
+}
+.card::-webkit-scrollbar-thumb:hover{
+    background-color: orange;
+    border-radius: 20px;
+    border:3px solid orange;
+}
+.img{
+    width: 100%;
+}
+.second_section h2{
+    color: orange;
+    padding-top: 50px;
+    margin-bottom: 15px;
+    /* background-color: aqua; */
+}
+.card p{
+    font-size: 17px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.enlace{
+    margin: 15px 0 5% 15px;
+    /* background-color: bisque; */
+    padding: 15px 0;
+}
+.enlace a{
+    background-color: rgba(211, 215, 217, 0.494);
+    padding:15px;
+}
+/*----------------------SECTION MAP---------*/
+.section_map{
+    text-align: center;
+    margin-bottom: 90px;
+    
+}
+.section_map h2{
+    margin:85px 0;
+    
+}
+/*---------------------THIRD SECTION-------------*/
+.third_section{
+    background-image: 
+    linear-gradient(
+    to bottom,
+    rgba(40, 40, 38, 0.5),
+    rgba(40, 40, 38, 0.5)
+  ),url("../Resource/img/fondo2.jpeg");
+    height: 800px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.third_section_body{
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 85px;
+    /* background-color: black; */
+    position: absolute;
+    margin: 50px 0 0 150px;
+}
+.third_section_card{
+ height: 255px;
+ width: 285px;
+ /* background-color: blue; */
+ text-align: center;
+}
+.third_section_card_img{
+  height:80% ;
+  width: 100%;
+  border-radius: 28%;
+}
+.third_section_card_title{
+    color: #fff;
+    font-size: 24px;
+    margin-top: 15px;
+}
+/* FOOOTER*/
+.footer{
+    background-image: 
+    linear-gradient(
+    to bottom,
+    rgba(6, 6, 5, 0.700),
+    rgba(6, 6, 5, 0.700)
+  ),url(../Resource/img/footer.jpeg);
+  background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+
+}
+
+.footer section:nth-child(1){
+    color: #fff;
+    display: flex;
+    height: 80%;
+    justify-content: space-around;
+    
+}
+.footer section:nth-child(2){
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+}
+.footer_title{
+    margin-top: 25px;
+    font-size: 30px;
+}
+.footer_p{
+    font-size: 20px;
+}
+
+div p span{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+div p i, div nav i{
+    font-size: 37px;
+}
+
+/*------------------------------------------------RESPONSIVE--------------------*/
+@media(max-width:1190px){
+    ul.menu li a{
+        font-size:14px;
+    }
+}
+@media(max-width:1180px){
+.third_section_body{
+   margin: 8% 5% 0 5%;
+}
+}
+
+@media(max-width:1082px){
+    .third_section_card{
+        height: 255px;
+        width: 250px;
+       }
+}
+
+@media(max-width:976px){
+    .third_section_card{
+        height: 255px;
+        width: 225px;
+       }
+       ul.menu li {
+        padding-top: 10px;
+        justify-content: space-around;
+        
+    }
+
+    ul.menu li a{
+        font-size: 12px;
+    }
+    .menu{
+        padding:0 2px;
+    }
+
+    .parrafo{
+        font-size: 15px;
+    }
+
+    .card p{
+        font-size: 12px;
+    }
+
+    div.enlace a{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 890px){
+    .third_section_card{
+        height: 225px;
+        width: 200px;
+       }
+}
+
+@media(max-width: 375px){
+
+/* THIRD SECTION*/
+    .third_section_body{
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 75px;
+    grid-row-gap:8%;
+    margin: 50px 0 50px 15%;
+    }
+    .third_section_card{
+        height: 80%;
+        width: 80px;
+       }
+    .third_section_card_title{
+        font-size: 12px;
+    }
+    .third_section{
+        height: 500px;
+    }
+/*FOOTHER*/
+.footer{
+    width: 100%;
+}
+h3.footer_title{
+    font-size: 12px;
+}
+p.footer_p{
+    font-size: 8px;
+}
+div p span{
+    font-size: 15px;
+    font-weight: bold;
+}
+div p i, div nav i{
+    font-size: 12px;
+}
+
+.footer section:nth-child(1){
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(2, 25%);
+    grid-column-gap: 20px;
+    grid-row-gap:2%;
+    height: 80%;
+    margin-left: 15%;
+    margin-right: 15%;  
+}
+.footer{
+    height: 200px;
+}
+.footer section:nth-child(2){
+font-size: 8px;
+}
+
+.Map{
+    width: 300px;
+}
+.second_section{
+    height: 990px;
+    
+}
+/*SECOND SECTION*/
+.container{
+    grid-template-columns: repeat(1, 1fr);
+    height: 85%;
+    margin: 0 10%;
+}
+.card{
+    height: 100%;
+    margin-bottom: 0;
+}
+/*FIRST SECTION*/
+
+.title_section {
+    /* background-color: black; */
+    font-size: 25px;
+
+}
+.parrafo{
+    font-size: 12px;
+    margin-left: 1%;
+    padding: 0 15%;
+    text-align: center;
+}
+/*HEADER*/
+.img_header {
+    height: 130px;
+}
+.title{
+    font-size: 15px;
+}
+.cabecera_container{
+    justify-content: center;
+    height: 200px;
+    margin-top: 40%;
+}
+}

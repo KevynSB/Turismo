@@ -1,0 +1,53 @@
+.cabecera_parque_quirigua{
+    background-image: 
+    linear-gradient(
+    to bottom,
+    rgba(40, 40, 38, 0.5),
+    rgba(40, 40, 38, 0.5)
+  ),url("http://cdn-assets.alltrails.com/es/static-map/production/area/10179316/parks-guatemala-izabal-parque-arqueologico-ruinas-de-quirigua-10179316-20200914194756000000000-1200x630-3-41600114755.jpg");
+    background-size: 100% 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+
+.third_section_quirigua_body{
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 180px;
+    /* background-color: black; */
+    position: absolute;
+    margin: 50px 0 0 300px;
+}
+
+.third_section_quirigua_page{
+    background-image: 
+    linear-gradient(
+    to bottom,
+    rgba(40, 40, 38, 0.5),
+    rgba(40, 40, 38, 0.5)
+  ),url("https://selloq.inguat.gob.gt/images/Quirigua/DJI_0822.jpg");
+    height: 800px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+/*RESPONSIVE*/
+@media (max-width:375px){
+  .cabecera_parque_quirigua{
+    height: 300px;
+  }
+
+  .third_section_quirigua_page {
+   height: 400px;
+}
+  .third_section_quirigua_body {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+    margin: 50px 0 0 15%;
+}
+.third_section_card_img {
+  height: 80px;
+  width: 100px;
+}
+}

@@ -1,0 +1,47 @@
+.cabecera_semuc{
+    background-image: 
+    linear-gradient(
+    to bottom,
+    rgba(40, 40, 38, 0.5),
+    rgba(40, 40, 38, 0.5)
+  ),url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Semuc_Champey%2C_Guatemala.jpg/1200px-Semuc_Champey%2C_Guatemala.jpg");
+    background-size: 100% 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+.img_semuc{
+  width: 100%;
+  height: 70%;
+}
+
+.third_section_semuc{
+  background-image: 
+  linear-gradient(
+  to bottom,
+  rgba(40, 40, 38, 0.5),
+  rgba(40, 40, 38, 0.5)
+),url("https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/08/39/2e/96.jpg");
+  height: 800px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/*RESPONSIVE*/
+@media(max-width:375px){
+/*HEADER*/
+.cabecera_semuc{
+  height: 200px;
+  }  
+  /*THIRD-SECTION*/
+  .third_section_semuc {
+    height: 400px;
+
+}
+.third_section_body {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 35%;
+    margin: 18% 0 50px 10%;
+}
+}

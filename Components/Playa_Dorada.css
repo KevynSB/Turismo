@@ -1,0 +1,58 @@
+.cabecera_playa_dorada{
+    background-image: 
+    linear-gradient(
+    to bottom,
+    rgba(40, 40, 38, 0.5),
+    rgba(40, 40, 38, 0.5)
+  ),url("https://www.guatemala.com/fotos/2019/04/playas-mas-bellas-de-Guatemala-885x5001.jpg");
+    background-size: 100% 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+
+.third_section_playa_dorada{
+    background-image: 
+    linear-gradient(
+    to bottom,
+    rgba(40, 40, 38, 0.5),
+    rgba(40, 40, 38, 0.5)
+  ),url("https://imperiochapin.com/wp-content/uploads/2018/11/Playa-Dorada-en-Izabal.jpg");
+    height: 800px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.third_section_body_Playa_Dorada{
+
+  display: grid;
+  grid-template-columns: repeat(2 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 180px;
+  /* background-color: black; */
+  position: absolute;
+  margin: 50px 0 0 300px;
+}
+
+/*RESPONSIVE*/
+@media(max-width:375px){
+  /*HEADER*/
+  .cabecera_playa_dorada{
+
+    height: 300px;
+  }
+
+  /*THIRD_SECTION*/
+  .third_section_playa_dorada{
+
+    height: 400px;
+  }
+
+  .third_section_body_Playa_Dorada{
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap:45%;
+    grid-row-gap:25%;
+    margin: 20% 0 0 15%;
+  }
+
+}

@@ -1,0 +1,49 @@
+.cabecera_Lago_Atitlan{
+    background-image: 
+    linear-gradient(
+    to bottom,
+    rgba(40, 40, 38, 0.5),
+    rgba(40, 40, 38, 0.5)
+  ),url("https://blog.corporacionbi.com/hs-fs/hubfs/La-Atitlan.jpg?width=1300&name=La-Atitlan.jpg");
+    background-size: 100% 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+
+.Lago_Atitlan_img{
+    width: 100%;
+    height: 70%;
+    /* margin-left: 12%; */
+}
+
+.third_section_Lago_Atitlan{
+  background-image: 
+  linear-gradient(
+  to bottom,
+  rgba(40, 40, 38, 0.5),
+  rgba(40, 40, 38, 0.5)
+),url("https://blog.nattule.com/wp-content/uploads/2020/02/atitlan-lago-xocomil.jpg");
+  height: 800px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/*RESPONSIVE*/
+@media(max-width:375px){
+  /*CABECERA*/
+  .cabecera_Lago_Atitlan {
+    height: 300px;
+
+}
+/*THIRD_SECTION*/
+.third_section_Lago_Atitlan {
+  height: 400px;
+}
+.third_section_body {
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 35px;
+  grid-row-gap: 25%;
+  margin: 50px 0 50px 10%;
+}
+}

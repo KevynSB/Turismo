@@ -1,0 +1,43 @@
+.cabecera_Antigua{
+    background-image: 
+    linear-gradient(
+    to bottom,
+    rgba(40, 40, 38, 0.5),
+    rgba(40, 40, 38, 0.5)
+  ),url("../Resource/img/Antigua/fondo1.jpg");
+    background-size: 100% 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+.third_section_Antigua{
+    background-image: 
+    linear-gradient(
+    to bottom,
+    rgba(40, 40, 38, 0.5),
+    rgba(40, 40, 38, 0.5)
+  ),url("../Resource/img/Antigua/fondo2.jpg");
+    height: 800px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+/*RESPONSIVE*/
+@media(max-width: 375px){
+  /*CABECERA*/
+  .cabecera_Antigua {
+    height: 300px;
+
+}
+
+
+  /*THIRD_SECTION*/
+  .third_section_Antigua { 
+    height: 300px;  
+  }
+  .third_section_body {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 5%;
+    margin: 5%px 0 0px 15%;
+}
+}
